@@ -8,7 +8,10 @@ const Food = () => {
   const filterType = (category) => setFoods(data.filter(item => item.category === category))
 
   // Filter by price
-  const filterPrice = (price) =>  setFoods(data.filter(item => item.price === price))
+  const filterPrice = (price) => {
+    const filteredPrice = data.filter(item => item.price >= price && item.price < price + 10 )
+    setFoods(filteredPrice)
+  }
 
   return (
     <div className="max-w-[1640px] m-auto px-4 py-8">
@@ -33,11 +36,11 @@ const Food = () => {
             {/* Filter Price */}
             <div>
                 <p className="font-bold text-gray-700 mb-1">Filter Price</p>
-                <div className="flex  justify-between max-w-[390px] w-full gap-3">
-                    <button onClick={() => filterPrice('$')} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$</button>
-                    <button onClick={() => filterPrice('$$')} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$</button>
-                    <button onClick={() => filterPrice('$$$')} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$$</button>
-                    <button onClick={() => filterPrice('$$$$')} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$$$</button>
+                <div className="flex justify-between max-w-[390px] w-full gap-3">
+                    <button onClick={() => filterPrice(10)} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$10</button>
+                    <button onClick={() => filterPrice(20)} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$20</button>
+                    <button onClick={() => filterPrice(30)} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$30</button>
+                    <button onClick={() => filterPrice(40)} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$40</button>
                 </div>
             </div>
         </div>
@@ -50,7 +53,7 @@ const Food = () => {
                     <div className="flex justify-between px-2 py-4">
                         <p className="font-bold">{item.name}</p>
                         <p>
-                            <span className="bg-orange-500 text-white p-1 rounded-full">{item.price}</span>
+                            <span className="bg-orange-500 text-white p-2 rounded-full">${item.price}</span>
                         </p>
                     </div>
                 </div>
