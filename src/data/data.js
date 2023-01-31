@@ -4,7 +4,7 @@ export const data = [
       name: 'Bacon Cheeseburger',
       category: 'burger',
       image:
-        '../src/assets/burgers/bacon-cheeseburger.png',
+        './images/burgers/bacon-cheeseburger.png',
       price: 11.99,
       detail: 'A delicious Bacon Chesseburger full of Cheddar'
     },
@@ -12,7 +12,7 @@ export const data = [
       id: 2,
       name: 'Mushroom Burger',
       category: 'burger',
-      image: '../src/assets/burgers/mushroom-burger.png',
+      image: './images/burgers/mushroom-burger.png',
       price: 22.85,
       detail: 'Amazing Mushroom Burger that will give to you all strenght you need'
     },
@@ -20,7 +20,7 @@ export const data = [
       id: 3,
       name: 'Loaded Burger',
       category: 'burger',
-      image:'../src/assets/burgers/loaded-burger.png',
+      image:'./images/burgers/loaded-burger.png',
       price: 30.99,
       detail: 'Double meat and salad, this is the loaded burger'
     },
@@ -28,7 +28,7 @@ export const data = [
       id: 4,
       name: 'Feta & Spinnach',
       category: 'pizza',
-      image: '../src/assets/pizzas/feta-spinnach.png',
+      image: './images/pizzas/feta-spinnach.png',
       price: 20.99,
       detail: 'Amazing spinnach combine in a pizza with melted cheese'
     },
@@ -36,7 +36,7 @@ export const data = [
       id: 5,
       name: 'Supreme Pizza',
       category: 'pizza',
-      image: '../src/assets/pizzas/supreme-pizza.png',
+      image: './images/pizzas/supreme-pizza.png',
       price: 33.80,
       detail: 'So taste and powerfull, a supreme flavor for you and your family'
     },
@@ -44,7 +44,7 @@ export const data = [
       id: 6,
       name: 'Meat Lovers',
       category: 'pizza',
-      image: '../src/assets/pizzas/meat-lovers.png',
+      image: './images/pizzas/meat-lovers.png',
       price: 40.99,
       detail: 'Great flavor and full of pepperoni'
     },
@@ -52,7 +52,7 @@ export const data = [
       id: 7,
       name: 'Cheese Pizza',
       category: 'pizza',
-      image: '../src/assets/pizzas/cheese-pizza.png',
+      image: './images/pizzas/cheese-pizza.png',
       price: 10.00,
       detail: "Are you a cheese lover? so this pizza it's for you"
     },
@@ -60,7 +60,7 @@ export const data = [
       id: 8,
       name: 'Kale Salad',
       category: 'salad',
-      image: '../src/assets/salads/kale-salad.png',
+      image: './images/salads/kale-salad.png',
       price: 20.00,
       detail: 'Need something light? The Kale Salad is gonna do the job'
     },
@@ -68,7 +68,7 @@ export const data = [
       id: 9,
       name: 'Ceasar Salad',
       category: 'salad',
-      image: '../src/assets/salads/ceasar-salad.png',
+      image: './images/salads/ceasar-salad.png',
       price: 34.99,
       detail: "It's not from Rome but has an army of salads"
     },
@@ -76,7 +76,7 @@ export const data = [
       id: 10,
       name: 'Loaded Salad',
       category: 'salad',
-      image: '../src/assets/salads/loaded-salad.png',
+      image: './images/salads/loaded-salad.png',
       price: 41.85,
       detail: 'The Loaded Salad has is the perfect mix between fit and light'
     },
@@ -84,7 +84,7 @@ export const data = [
       id: 11,
       name: 'Fruit Salad',
       category: 'salad',
-      image: '../src/assets/salads/fruit-salad.png',
+      image: './images/salads/fruit-salad.png',
       price: 15.99,
       detail: 'If you are a fruit lover, you gonna love this even more'
     },
@@ -92,7 +92,7 @@ export const data = [
       id: 12,
       name: 'Wings',
       category: 'chicken',
-      image: '../src/assets/chickens/wings.png',
+      image: './images/chickens/wings.png',
       price: 23.50,
       detail: 'A delicious chicken wings that will make your stomach happy'
     },
@@ -100,7 +100,7 @@ export const data = [
       id: 13,
       name: 'Baked Chicken',
       category: 'chicken',
-      image: '../src/assets/chickens/baked-chicken.png',
+      image: './images/chickens/baked-chicken.png',
       price: 40.50,
       detail: 'A giant Chicken that will feed an entire family'
     },
@@ -108,7 +108,7 @@ export const data = [
       id: 14,
       name: 'Chicken Tenders',
       category: 'chicken',
-      image: '../src/assets/chickens/chicken-tenders.png',
+      image: './images/chickens/chicken-tenders.png',
       price: 11.99,
       detail: 'This is the perfect snack to begin the night beside someone you love'
     },
@@ -116,7 +116,7 @@ export const data = [
       id: 15,
       name: 'Chicken Kabob',
       category: 'chicken',
-      image: '../src/assets/chickens/chicken-kabob.png',
+      image: './images/chickens/chicken-kabob.png',
       price: 35.50,
       detail: 'A snack that will make your group happy'
     },
@@ -124,7 +124,7 @@ export const data = [
       id: 16,
       name: 'Double Cheeseburger',
       category: 'burger',
-      image: '../src/assets/burgers/bacon-cheeseburger.png',
+      image: './images/burgers/bacon-cheeseburger.png',
       price: 40.00,
       detail: 'A burger so big that will double your happiness'
     },
