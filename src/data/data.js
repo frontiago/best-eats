@@ -124,7 +124,7 @@ export const data = [
       id: 16,
       name: 'Double Cheeseburger',
       category: 'burger',
-      image: './images/burgers/bacon-cheeseburger.png',
+      image: './images/burgers/double-cheeseburger.png',
       price: 40.00,
       detail: 'A burger so big that will double your happiness'
     },
