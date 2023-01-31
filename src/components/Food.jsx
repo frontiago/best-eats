@@ -61,7 +61,7 @@ const Food = () => {
                 <div key={index} 
                     onClick={() => modalFoodDetails(item.image, item.name, item.detail, item.price)} 
                     className="border shadow-lg rounded-lg hover:scale-105 duration-300 cursor-pointer">
-                    <img className="w-full h-[200px] object-cover rounded-t-lg" src={`./${item.image}`} alt={item.name} />
+                    <img className="w-full h-[200px] object-cover rounded-t-lg" src={item.image} alt={item.name} />
                     <div className="flex justify-between px-2 py-4">
                         <p className="font-bold">{item.name}</p>
                         <p>
