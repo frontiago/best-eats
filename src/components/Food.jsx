@@ -1,5 +1,5 @@
 import {data} from '../data/data'
-import {useState} from 'react'
+import {useState, useRef} from 'react'
 import {FoodDetails} from './FoodDetails'
 
 const Food = () => {
@@ -52,7 +52,7 @@ const Food = () => {
                     <button onClick={() => filterPrice(40)} className="mb-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$40</button>
                 </div>
             </div>
-        </div>
+        </div>  
 
         {/* Display Foods */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
@@ -72,7 +72,7 @@ const Food = () => {
             ))}
             
             {foodModal && 
-                <FoodDetails modalFoodDetails={modalFoodDetails} foodData={foodData} />  
+                <FoodDetails modalFoodDetails={modalFoodDetails} foodData={foodData}/>  
             }
 
         </div>
