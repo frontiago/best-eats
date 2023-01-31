@@ -1,13 +1,11 @@
 import {AiOutlineClose} from 'react-icons/ai'
 
-const imgTest = 'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-
 export const FoodDetails = ({ modalFoodDetails, foodData }) => {
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full bg-black/80  z-10" onClick={modalFoodDetails}>
+    <div className="fixed top-0 left-0 w-full h-full bg-black/80 z-10 transition duration-300" onClick={modalFoodDetails}>
       
-      <div className="relative top-[3%] mx-auto w-[90%] min-h-[500px] p-12 bg-slate-200 text-center flex-col  md:w-[800px] md:max-h-[90%] gap-6">
+      <div className="relative top-[3%] mx-auto w-[90%] min-h-[500px] p-12 bg-slate-200 text-center flex-col  md:w-[800px] md:max-h-[90%] gap-6 ">
         
         <div className="w-full h-auto  flex flex-col justify-center items-center">
           <img src={foodData[0]} alt="food" className="w-full max-h-[400px] mb-4 object-cover" />
