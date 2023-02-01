@@ -5,7 +5,7 @@ export const FoodDetails = ({ modalFoodDetails, foodData }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black/80 z-10 transition duration-300" onClick={modalFoodDetails}>
       
-      <div className="relative top-[3%] mx-auto w-[90%] min-h-[500px] p-12 bg-slate-200 text-center flex-col  md:w-[800px] md:max-h-[90%] gap-6 ">
+      <div onClick={(e) => e.stopPropagation()} className="relative top-[3%] mx-auto w-[90%] min-h-[500px] p-12 bg-slate-200 text-center flex-col  md:w-[800px] md:max-h-[90%] gap-6 ">
         
         <div className="w-full h-auto  flex flex-col justify-center items-center">
           <img src={foodData[0]} alt="food" className="w-full max-h-[400px] mb-4 object-cover" />

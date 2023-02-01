@@ -12,4 +12,4 @@
 
 ---
 
-![Print](./src/assets/print.png)
+![Print](./public/images/print.png)
