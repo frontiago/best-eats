@@ -2,7 +2,7 @@ import {categories} from '../data/data'
 
 const Category = () => {
   return (
-    <div className="max-w-[1640px] mx-auto px-6 py-12">
+    <div className="max-w-[1640px] mx-auto px-6 py-12 overflow-x-hidden">
         <h1 className="mb-6 text-orange-600 font-bold text-4xl text-center">Top Rated Menu Categories</h1>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-6">   

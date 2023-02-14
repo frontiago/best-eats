@@ -1,5 +1,5 @@
 import {data} from '../data/data'
-import {useState, useRef} from 'react'
+import {useState} from 'react'
 import {FoodDetails} from './FoodDetails'
 
 const Food = () => {

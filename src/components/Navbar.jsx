@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag, AiFillMessage} from 'react-icons/ai'
 import {TbTruckDelivery} from 'react-icons/tb'
 import {BsFillCartFill, BsFillSaveFill} from 'react-icons/bs'
 import {FaUserFriends, FaWallet} from 'react-icons/fa'
@@ -29,7 +29,6 @@ const Navbar = () => {
             <input className='bg-transparent p-2 w-full focus:outline-none' type='text' placeholder='Search foods'
         />
         </div>
-       
 
         <button className="bg-black text-white hidden md:flex items-center py-2 rounded-full hover:bg-orange-600 hover:border-orange-600">
             <BsFillCartFill size={20} className="mr-2"/>
@@ -53,6 +52,7 @@ const Navbar = () => {
                     <li className="text-xl py-4 flex"> <AiFillTag size={25} className="mr-4"/> Promotions </li>
                     <li className="text-xl py-4 flex"> <BsFillSaveFill size={25} className="mr-4"/> Best Ones </li>
                     <li className="text-xl py-4 flex"> <FaUserFriends size={25} className="mr-4"/> Invite Friends </li>
+                    <li className="text-xl py-4 flex"> <AiFillMessage size={25} className="mr-4"/> Contact </li>
                 </ul>
             </nav>
         </div>
